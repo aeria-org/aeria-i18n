@@ -1,0 +1,23 @@
+all: todos
+user: usuário | usuários
+none: nenhum
+
+yes: sim
+no: não
+of: de
+
+action:
+  add: Adicionar
+  cancel: Cancelar
+  confirm: Confirmar
+  duplicate: Duplicar
+  edit: Editar
+  insert: Inserir
+  remove: Remover
+  view: Visualizar
+
+prompt:
+  default: Tem certeza de que deseja fazer isso?
+  close_panel: |
+    Deseja mesmo fechar esse painel?
+    Informações que não foram salvas podem ser perdidas.

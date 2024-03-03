@@ -1,0 +1,17 @@
+{
+  "name": "waltz-i18n",
+  "private": true,
+  "version": "1.0.0",
+  "description": "This repository contains internationalization packages for Waltz UI.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "yaml-cli": "^1.1.8"
+  }
+}
