@@ -9,13 +9,19 @@ showing: mostrando
 yes: sim
 no: não
 of: de
+filters: filtros
+filter_by: filtrar por
 add_first_item: Adicionar primeiro item
+change_password: mudar senha
+change_layout: alternar layout
 action:
   add: adicionar
   cancel: cancelar
+  clear: limpar
   confirm: confirmar
   duplicate: duplicar
   edit: editar
+  filter: filtrar
   insert: inserir
   remove: remover
   save: salvar

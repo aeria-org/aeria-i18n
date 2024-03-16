@@ -1,0 +1,34 @@
+all:
+user:
+  - user
+  - users
+none: 
+no_results: no results
+searching_ellipsis: searching...
+showing: 
+yes: 
+no: 
+of:
+filters:
+filter_by: filter by
+add_first_item: add the first item
+change_password: change password
+change_layout: change layout
+action:
+  add: 
+  cancel: 
+  confirm: 
+  clear:
+  duplicate: 
+  edit: 
+  filter:
+  insert: 
+  remove: 
+  save: 
+  select: 
+  view: 
+prompt:
+  default: Are you sure you want to do that?
+  close_panel: |
+    Are you sure you want to close this panel?
+    Unsaved information can be lost.
