@@ -1,6 +1,6 @@
 {
   "name": "@aeria-ui/i18n-en",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.json",
   "types": "index.d.ts",
