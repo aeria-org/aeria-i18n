@@ -1,21 +1,26 @@
 all: todos
-user: usuário | usuários
+user:
+  - usuário
+  - usuários
 none: nenhum
-
+no_results: sem resultados
+searching_ellipsis: pesquisando...
+showing: mostrando
 yes: sim
 no: não
 of: de
-
+add_first_item: Adicionar primeiro item
 action:
-  add: Adicionar
-  cancel: Cancelar
-  confirm: Confirmar
-  duplicate: Duplicar
-  edit: Editar
-  insert: Inserir
-  remove: Remover
-  view: Visualizar
-
+  add: adicionar
+  cancel: cancelar
+  confirm: confirmar
+  duplicate: duplicar
+  edit: editar
+  insert: inserir
+  remove: remover
+  save: salvar
+  select: selecionar
+  view: visualizar
 prompt:
   default: Tem certeza de que deseja fazer isso?
   close_panel: |
