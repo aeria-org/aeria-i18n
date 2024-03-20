@@ -33,7 +33,7 @@ const start = async () => {
             const paths = path.parse(file).dir.split('/')
             const langName = paths[paths.length - 1]
             try {
-                const buffer = await fs.promises.readFile(_dirname + file)
+                const buffer = await fs.promises.readFile(_dirname + file, 'utf-8')
                 const json = JSON.parse(buffer.toString())
                 languages[langName] = json
             } catch (error) {
