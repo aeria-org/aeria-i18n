@@ -32,18 +32,14 @@ const start = async () => {
         for (const file of files) {
             const paths = path.parse(file).dir.split('/')
             const langName = paths[paths.length - 1]
-            await new Promise<void>((resolve) => {
-                fs.readFile(_dirname + file, (err, data) => {
-                    if(err)
-                    {
-                        console.trace(`Error parsing language file at ${file}`, err)
-                        mustExit = true
-                    }
-                    const json = JSON.parse(data.toString())
-                    languages[langName] = json
-                    resolve()
-                })
-            })
+            try {
+                const buffer = await fs.promises.readFile(_dirname + file)
+                const json = JSON.parse(buffer.toString())
+                languages[langName] = json
+            } catch (error) {
+                console.trace(`Error parsing language file at ${file}`, error)
+                mustExit = true
+            }
         }
     
         const english = languages.en
