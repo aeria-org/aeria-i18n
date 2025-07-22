@@ -6,6 +6,9 @@ on:
       - master
       - develop
     paths:
+      - '.changeset'
+      - 'package.json'
+      - 'pnpm-lock.yaml'
       - 'packages/**/*'
 
 permissions:
