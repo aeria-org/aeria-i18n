@@ -2,9 +2,6 @@ name: Continuos Integration
 
 on:
   push:
-    branches:
-      - master
-      - develop
     paths:
       - '.changeset'
       - 'package.json'
