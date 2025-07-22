@@ -1,6 +1,8 @@
 {
   "name": "aeria-i18n",
+  "type": "module",
   "private": true,
+  "packageManager": "pnpm@9.1.0",
   "scripts": {
     "build": "./scripts/build.sh"
   },
