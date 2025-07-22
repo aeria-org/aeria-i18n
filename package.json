@@ -1,21 +1,12 @@
 {
-  "name": "waltz-i18n",
+  "name": "aeria-i18n",
   "private": true,
-  "version": "1.0.0",
-  "description": "This repository contains internationalization packages for Waltz UI.",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "check": "ts-node ./scripts/check-missing-words.ts"
+    "build": "./scripts/build.sh"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
-    "yaml-cli": "^1.1.8"
-  },
-  "dependencies": {
-    "glob": "^10.3.10"
+    "typescript": "^5.8.3"
   }
 }

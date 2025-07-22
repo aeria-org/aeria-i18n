@@ -2,21 +2,24 @@
   "name": "@aeria-ui/i18n-en",
   "version": "0.0.3",
   "description": "",
-  "main": "index.json",
-  "types": "index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "yaml json write index.yaml > index.json",
-    "prepublishOnly": "pnpm build"
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "files": [
-    "index.d.ts",
-    "index.json"
-  ]
+    "dist"
+  ],
+  "devDependencies": {
+    "@aeria-ui/i18n": "^0.0.18"
+  },
+  "peerDependencies": {
+    "@aeria-ui/i18n": "^0.0.18"
+  }
 }
