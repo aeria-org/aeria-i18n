@@ -18,21 +18,21 @@ importers:
   packages/en:
     devDependencies:
       '@aeria-ui/i18n':
-        specifier: ^0.0.18
-        version: 0.0.18(@aeriajs/common@0.0.160(@aeriajs/types@0.0.136(@phosphor-icons/core@2.1.1))(bson@6.10.4))
+        specifier: ^0.0.19
+        version: 0.0.19(@aeriajs/common@0.0.160(@aeriajs/types@0.0.136(@phosphor-icons/core@2.1.1))(bson@6.10.4))
 
   packages/pt:
     devDependencies:
       '@aeria-ui/i18n':
-        specifier: ^0.0.18
-        version: 0.0.18(@aeriajs/common@0.0.160(@aeriajs/types@0.0.136(@phosphor-icons/core@2.1.1))(bson@6.10.4))
+        specifier: ^0.0.19
+        version: 0.0.19(@aeriajs/common@0.0.160(@aeriajs/types@0.0.136(@phosphor-icons/core@2.1.1))(bson@6.10.4))
 
 packages:
 
-  '@aeria-ui/i18n@0.0.18':
-    resolution: {integrity: sha512-3096aCmFo93BN90YJ+9oGESVWNUD3IxEYvvIchjZch6874ltOdhQkaQFOaN77oee/w2f51sFuHO5MfaUx/WEPg==}
+  '@aeria-ui/i18n@0.0.19':
+    resolution: {integrity: sha512-+NUzgCTjWAPLekLrIKwNGguaww3SmkY7/u69gOoeISEqpfia8KFRzBw1a1IvcoLJ37cqXEVBP0NteO3dXQZY1Q==}
     peerDependencies:
-      '@aeriajs/common': ^0.0.160
+      '@aeriajs/common': ^0.0.161
 
   '@aeriajs/common@0.0.160':
     resolution: {integrity: sha512-/u1I0bqwgk74GzmH0epYO/+rhpMkA4uDUIN/2MX4UyUJfc49YX48UqJ0JcNa2Ecs/1nn9YwkGKv2ZH+u37ZDGQ==}
@@ -430,7 +430,7 @@ packages:
 
 snapshots:
 
-  '@aeria-ui/i18n@0.0.18(@aeriajs/common@0.0.160(@aeriajs/types@0.0.136(@phosphor-icons/core@2.1.1))(bson@6.10.4))':
+  '@aeria-ui/i18n@0.0.19(@aeriajs/common@0.0.160(@aeriajs/types@0.0.136(@phosphor-icons/core@2.1.1))(bson@6.10.4))':
     dependencies:
       '@aeriajs/common': 0.0.160(@aeriajs/types@0.0.136(@phosphor-icons/core@2.1.1))(bson@6.10.4)
 
