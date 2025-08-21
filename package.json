@@ -8,13 +8,8 @@
   },
   "license": "ISC",
   "devDependencies": {
-<<<<<<< HEAD
+    "@aeria-ui/i18n": "^0.0.18",
     "@changesets/cli": "^2.29.6",
     "typescript": "^5.9.2"
-=======
-    "@aeria-ui/i18n": "^0.0.18",
-    "@changesets/cli": "^2.29.5",
-    "typescript": "^5.8.3"
->>>>>>> f1b8393 (update)
   }
 }
