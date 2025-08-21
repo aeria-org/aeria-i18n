@@ -3,7 +3,7 @@ import type { LocaleMessages } from '@aeria-ui/i18n'
 type LocaleString = LocaleMessages[string]
 
 declare global {
-  export type AeriaLocale = {
+  type AeriaLocale = {
    all: LocaleString
     done: LocaleString
     user: LocaleString

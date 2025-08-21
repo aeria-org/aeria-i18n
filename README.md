@@ -1,3 +1,3 @@
-# Waltz I18n
+# Aeria I18n
 
-This repository contains internationalization packages for [Waltz UI](https://github.com/sonata-api/waltz-ui).
+This repository contains internationalization packages for [Aeria](https://github.com/aeria-org/aeria).
