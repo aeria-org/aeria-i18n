@@ -55,5 +55,7 @@ export const pt = defineLocale({
     unmatching: "tipo incorreto para o campo",
     extraneous_element: "lista contém elementos excedentes",
     numeric_constraint: "limitação numérica"
-  }})
+  }
+
+} satisfies AeriaLocale)
 

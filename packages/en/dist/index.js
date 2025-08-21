@@ -42,6 +42,10 @@ exports.en = (0, i18n_1.defineLocale)({
         create_account: "Sign up",
         proceed_as: "Proceed as"
     },
+    page: [
+        'page',
+        'pages',
+    ],
     password_has_been_changed: "The password has been changed successfully.",
     prompt: {
         default: "Are you sure you want to do that?",

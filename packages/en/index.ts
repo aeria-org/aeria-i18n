@@ -40,6 +40,10 @@ export const en = defineLocale({
     create_account: "Sign up",
     proceed_as: "Proceed as"
   },
+  page: [
+    'page',
+    'pages',
+  ],
   password_has_been_changed: "The password has been changed successfully.",
   prompt: {
     default: "Are you sure you want to do that?",
@@ -52,4 +56,5 @@ export const en = defineLocale({
     extraneous_element: "list contains an extraneous element",
     numeric_constraint: "numeric constraint"
   }
-})
+} satisfies AeriaLocale)
+
