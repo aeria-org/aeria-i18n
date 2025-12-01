@@ -9,7 +9,7 @@
   "license": "ISC",
   "devDependencies": {
     "@aeria-ui/i18n": "^0.0.19",
-    "@changesets/cli": "^2.29.7",
+    "@changesets/cli": "^2.29.8",
     "typescript": "^5.9.3"
   }
 }
